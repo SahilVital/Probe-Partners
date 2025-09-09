@@ -229,6 +229,12 @@ const slider = document.querySelector('.slider');
         startAutoSlide();
 
 
+          AOS.init({
+    duration: 1000, // animation duration
+    once: true      // whether animation should happen only once
+  });
+
+
 
 
 
